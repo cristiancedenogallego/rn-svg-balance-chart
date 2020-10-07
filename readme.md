@@ -10,5 +10,7 @@
 - Used setNativeProps for improve Performance
 
 **Demo**
+
+----
 ![alt text](./demo.gif "Demo")
 
