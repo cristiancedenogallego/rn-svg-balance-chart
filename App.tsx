@@ -21,11 +21,7 @@ const App = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={styles.safeArea}>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
-          <GraphicSvg />
-        </ScrollView>
+        <GraphicSvg />
       </SafeAreaView>
     </>
   );

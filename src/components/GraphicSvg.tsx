@@ -10,10 +10,7 @@ const {width} = Dimensions.get('screen');
 
 const {scaleTime, scaleQuantile, scaleLinear} = scale;
 const d3 = {
-  /* scale, */
   shape,
-  /* format,
-    axis, */
 };
 
 export interface GraphicSvgProps {}
@@ -152,4 +149,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default GraphicSvg;
+export default React.memo(GraphicSvg);
